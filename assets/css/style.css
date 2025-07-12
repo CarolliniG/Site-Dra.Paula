@@ -1,0 +1,14 @@
+/* assets/css/style.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+#atuacao ul {
+  max-width: 500px;
+  margin: 0 auto;
+}
