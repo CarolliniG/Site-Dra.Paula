@@ -1,6 +1,9 @@
 /* assets/css/style.css */
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: #444444;
 }
 
 h1,
@@ -8,7 +11,62 @@ h2 {
   font-weight: 600;
 }
 
-#atuacao ul {
-  max-width: 500px;
-  margin: 0 auto;
+header {
+  background-color: #1c2a4b;
+  color: #e4c491;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+header h1 {
+  font-family: Pinyon Script;
+}
+
+#comotrabalhamos {
+  padding: 2rem;
+}
+
+.foto {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+}
+
+.foto img {
+  max-width: 600px;
+  text-align: left;
+  margin: 3rem 0 6rem 3rem;
+}
+
+.informacoes {
+  max-width: 600px;
+  text-align: left;
+  margin: 3rem 0 6rem 3rem;
+}
+
+.whatsapp-button {
+  background-color: #40c351;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 2rem;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.whatsapp-button i {
+  font-size: 2rem;
+  display: inline;
+}
+.whatsapp-button p {
+  display: inline;
+  margin-left: 0.5rem;
 }
