@@ -6,6 +6,10 @@ body {
   background-color: #ffffff;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: #1c2a4b;
   color: #e4c491;
