@@ -34,13 +34,16 @@ header h1 {
   height: 300px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+  padding: 1rem;
 }
 
 .foto img {
   max-width: 600px;
-  text-align: left;
-  margin: 3rem 0 6rem 3rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
 }
 
 .informacoes {
@@ -60,6 +63,7 @@ header h1 {
   width: 100%;
   display: block;
   text-align: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
 }
 
 .whatsapp-button i {
