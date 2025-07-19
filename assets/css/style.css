@@ -9,15 +9,53 @@ body {
 header {
   background-color: #1c2a4b;
   color: #e4c491;
-}
-
-header img {
-  width: 100px;
-  height: auto;
+  overflow: hidden;
 }
 
 header h1 {
-  font-family: Pinyon Script;
+  font-family: "Pinyon Script", cursive;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.header-personalizado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.img-justica-esquerda {
+  position: absolute;
+  left: 20px;
+  top: 60%;
+  transform: translateY(-50%);
+  max-height: 80%;
+  z-index: 2;
+}
+
+.img-justica-direita {
+  position: absolute;
+  right: 20px;
+  top: 60%;
+  transform: translateY(-50%) scaleX(-1);
+  max-height: 80%;
+  z-index: 2;
+}
+
+.titulo {
+  text-align: center;
+  flex-grow: 1;
+  z-index: 1;
+}
+
+.titulo img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 #fabio,
